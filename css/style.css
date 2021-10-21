@@ -47,7 +47,9 @@ a:focus, a:hover {
 	text-decoration: none;
 	outline: none;
 }
-/*-- //Reset-Code --*/
+
+
+
 
 
 /*-- nav --*/
@@ -176,7 +178,8 @@ ul.top-links.social li {
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
 }
-/*-- //nav --*/
+
+
 .w3l-banner {
     background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -193,6 +196,10 @@ ul.top-links.social li {
     -o-background-size: 2px;
     -ms-background-size: 2px;
 }
+
+
+
+
 
 /* Заголовок */
 .w3l-info {
@@ -224,6 +231,8 @@ ul.top-links.social li {
     text-decoration: none;
     outline: none;
 }
+
+
 
 
 
@@ -349,7 +358,10 @@ h3.heading:after {
 }
 /*-- //copyright --*/
 
-/* contact */
+
+
+
+/* Заказать сайт */
 .contact iframe {
     border: none;
     height: 400px;
@@ -417,7 +429,7 @@ h3.heading:after {
 .contact {
     padding:5em 0 0;
 }
-/* //contact */
+/* //Заказать сайт */
 
 
 
@@ -474,7 +486,11 @@ h3.heading:after {
     font-size: 1em;
     font-weight: 600;
 }
-/* Common style */
+
+
+
+
+/* Фича с подписью должности */
 .grid figure {
   position: relative;
   float: left;
@@ -510,18 +526,12 @@ h3.heading:after {
 	width: 100%;
 	height: 100%;
 }
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
-}
-.grid figure h4 {
-	word-spacing: 0.15em;
-}
+
+
+
+
+
+
 
 /* Цвет фамилии */
 .grid figure h4 span {
@@ -623,161 +633,7 @@ h4.tittle {
 
 
 
-/*--//featured-section--*
-/*-- social-icons --*/
-.team ul.top-links li {
-    margin-left: 5px;
-    display: inline-block;
-}
-.team ul.top-links li a i.fa {
-    color: #3169ff;
-    background-color: #ffffff;
-    width: 35px;
-    height: 35px;
-    font-size: 15px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    line-height: 36px;
-    text-align: center;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-}
-ul.top-links li a i.fa:hover {
-    color: #fff;
-   background-color: #202020;
-}
-/*-- //social-icons --*/
-
-/*-- gallery --*/
-.w3ls_banner_bottom_right1 h2 {
-    font-size: 2.5em;
-    color: #262c38;
-    letter-spacing: 1px;
-    position: relative;
-    font-weight: 700;
-}
-.w3ls_banner_bottom_right1 p {
-    color: #666;
-    line-height: 2em;
-    font-size: 1em;
-    margin-bottom: 1em;
-}
-.w3ls_banner_bottom_right1 h2:after {
-    border-top: 2px solid #47cf73;
-    display: block;
-    width: 81px;
-    content: "";
-    margin: 8px 0;
-}
-ul.some_agile_facts li {
-    list-style: none;
-    margin:15px 0;
-    color: #333;
-    font-weight: 600;
-}
-ul.some_agile_facts i {
-    color: #47cf73;
-    margin-right: 7px;
-}
-/*--/middle--*/
-.w3ls-special-img.w3l-grid-1{
-    background:#000 url(../images/g1.jpg) no-repeat 0px 0px;
-    min-height:400px;
-    background-size: cover;
-    text-align: center;
-    position: relative;	
-}
-.w3ls-special-img.w3l-grid-2{
-    background:#000 url(../images/g2.jpg) no-repeat 0px 0px;
-   min-height:400px;
-    background-size: cover;
-    text-align: center;
-    position: relative;	
-}
-.w3ls-special-img.w3l-grid-3{
-    background:#000 url(../images/g3.jpg) no-repeat 0px 0px;
-    min-height:400px;
-    background-size: cover;
-    text-align: center;
-    position: relative;	
-}
-.w3ls-special-text h4 {
-       color: #FFF;
-    font-size: 2em;
-    margin: 4em 0 0 0;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-bottom: 1em;
-}
-.w3ls-special-img {
-    padding: 0;
-}
-.w3ls-special-text.effect-1 ul li {
-    list-style: none;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 1em;
-    margin-bottom: 1em;
-}
-/*-- Effect 1--*/
-.w3ls-special-text:after {
-    position: absolute;
-        width: 316px;
-    height: 323px;
-    content: '';
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-background: rgba(0, 0, 0, 0.17);
-}
-.effect-1 {
-	-webkit-transition: background 0.5s, color 0.2s;
-	-moz-transition: background 0.5s, color 0.2s;
-	transition: background 0.5s, color 0.2s;
-}
-.effect-1:after {
-       top: 43px;
-    left: 41px;
-    box-shadow: 0 0 0 2px #FFFFFF;
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.2s;
-    -webkit-transform: scale(0.8);
-    -moz-transition: -moz-transform 0.5s, opacity 0.2s;
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transition: transform 0.5s, opacity 0.2s;
-    transform: scale(0.8);
-    opacity: 0;
-}
-.w3ls-special-img:hover.w3ls-special-text{
-	background:#FF7200;
-	color: #fff !important;
-}
-.w3ls-special-img:hover .w3ls-special-text:after {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-}
-.w3ls-special-img.text_info {
-    background: #000;
-    min-height: 399px;
-}
-.w3ls-special-img.text_info h4 {
-    text-align: center;
-    color: #fff;
-    font-size: 2.5em;
-    font-weight: 700;
-    padding-top:4em;
-}
-/*--//Effect 1--*/
-/*--flexisel--*/
+/*--flexisel, прокрутка визиток--*/
 .flex-slider{	
 	background:#222227;
 	padding: 70px 0 165px 0;
@@ -812,7 +668,7 @@ background: rgba(0, 0, 0, 0.17);
 	cursor: pointer;
 	position: relative;
 }
-/*---- Nav ---*/
+
 .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
     width: 40px;
     height: 40px;
@@ -893,7 +749,7 @@ background: rgba(0, 0, 0, 0.17);
 
 
 
-/*-- to-top --*/
+/*-- Наверх --*/
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -918,7 +774,7 @@ background: rgba(0, 0, 0, 0.17);
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
-/*-- //to-top --*/
+/*-- //наверх --*/
 
 
 
@@ -1001,6 +857,3 @@ background: rgba(0, 0, 0, 0.17);
 		height: 350px;
 	}
 }
-
-
-/*-- //responsive design --*/
